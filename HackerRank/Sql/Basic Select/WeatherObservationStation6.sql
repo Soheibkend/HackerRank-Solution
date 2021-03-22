@@ -1,0 +1,1 @@
+select unique CITY from STATION where substr(lower(CITY),1,1) in ('a', 'e', 'i', 'o', 'u');
